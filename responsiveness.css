@@ -1,0 +1,67 @@
+@media only screen and (max-width: 962px){
+    .navlist{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 450px;
+    }
+    .search{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 80px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 30px 0px;
+    }
+    .contact{
+        height: 75vh;
+    }
+    .firstsection{
+        padding: 50px 0px;
+
+    }
+    .section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 15px;
+    }
+    .section{
+        padding: 20px 0px;
+    }
+    .imgfluid{
+        height: 250px;
+    }
+    .buttons{
+        display: flex;
+    
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px 0px;
+    }
+    .btn{
+        font-size: 17px;
+    }
+}
